@@ -1,0 +1,31 @@
+body {
+	background-color: #F5F5DC;
+}
+
+h1 {
+	color: #00008B;
+	font-family: 'PT Sans Caption';
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.3999996185303px;
+}
+p {
+	color: #8FBC8F;
+	font-style: italic;
+	font-family: 'PT Sans Caption';
+	font-size: 14px;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+ul {
+	font-family: 'PT Sans';
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
