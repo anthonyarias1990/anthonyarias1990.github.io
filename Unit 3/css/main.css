@@ -15,16 +15,37 @@ background-color: #FE938C;
 ul {
   list-style-type: none;
   float:left;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
 li {
 	float: left;
 	text-align: center;
-	border-style: solid;
-	border-width: 2px;
-	border-color: purple;
-	padding-right: 5px;
-	padding-left: 5px;
+	display: inline;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+#nav {
+  display: table;
+  table-layout: fixed;
+  text-align: center;
+}
+#nav li {
+  display: table-cell;
+  padding-right: 1px;
+  height: auto;
+  vertical-align: top;
+}
+#nav a {
+  display: block;
+  min-height: 100%;
+  padding: 4px 10px;
+  background-color: #222;
+  color: white;
+  border-radius: 6px 6px 0 0;
 }
 
 #section2 h1, #section3 h1, #section4 h1 {
@@ -73,3 +94,9 @@ li {
   width: 100%;
   max-width: 250px;
 }
+
+#values_words h3 {
+text-decoration: underline;
+font-wight: bold;
+}
+
